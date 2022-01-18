@@ -3,11 +3,32 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Document</title>
 </head>
 <body>
+  <form>
+    <div class="form-group">
+      <input type="text" id="name" name="name">
+      <label for="name">Name</label>
+    </div>
+    <div class="form-group">
+      <input type="radio" value="vanilla" name="ice-cream">
+      <label for="ice-cream">Vanilla</label>
+      <br>
+      <input type="radio" value="snicker-doodle" name="ice-cream">
+      <label for="ice-cream">Snicker-doodle</label>
+      <br>
+      <input type="radio" value="chocolate" name="ice-cream">
+      <label for="ice-cream">Chocolate</label>
+    </div>
+    <div class="form-group">
+      <input type="text" name="food" id="food">
+      <label for="food">Favorite food</label>
+    </div>
+      <input class="btn-success" type="submit" value="submit">
+  </form>
   
 </body>
 </html>
